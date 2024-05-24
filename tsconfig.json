@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",        // Version ECMAScript cible
+    "module": "commonjs",   // Système de module
+    "outDir": "./dist",     // Répertoire de sortie
+    "rootDir": "./src",     // Répertoire source
+    "strict": true          // Activer les vérifications strictes
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
